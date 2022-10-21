@@ -1,0 +1,25 @@
+{
+  "name": "zid-frontend-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@vue-stripe/vue-stripe": "^4.4.4",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue": "^2.22.0",
+    "vue": "^3.2.41",
+    "vue-credit-card-validation": "^1.0.5",
+    "vue-router": "^4.1.5",
+    "vue-sidebar-menu": "^5.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "vite": "^3.0.9"
+  }
+}
